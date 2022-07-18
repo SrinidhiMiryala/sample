@@ -5,6 +5,9 @@ class MetroTicketCounter{
 	void destination(String destination) {
 		System.out.println("destination choosen is "+destination);
 	}
+	String destinationchoosen() {
+		return "kukatpally";
+	}
 	
 	String ticketCost(int Cost) {
 		System.out.println("Cost for ticket is " +Cost);

@@ -5,6 +5,9 @@ class Bank{
 	void submit(String form) {
 		System.out.println("form given is "+form);
 	}
+	String submittedform() {
+		return "Withdrawal";
+	}
 	
 	String withdrawal(int amount) {
 		System.out.println("Amount given is "+amount);
