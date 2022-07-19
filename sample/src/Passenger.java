@@ -5,10 +5,12 @@ class MetroTicketCounter{
 	void destination(String destination) {
 		System.out.println("destination choosen is "+destination);
 	}
+	void destination(String destination,String destination1) {
+		System.out.println("destination1 choosen is "+destination+"and"+destination1);
+	}
 	String destinationchoosen() {
 		return "kukatpally";
 	}
-	
 	String ticketCost(int Cost) {
 		System.out.println("Cost for ticket is " +Cost);
 		return " ";
