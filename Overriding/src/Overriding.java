@@ -15,7 +15,7 @@
     private String getvehiclecolor(){
         String a;
         System.out.println(" enter vehicle color");
-        a = sc.next();
+        a = sc.next(); 
         return a;
     }
 }
