@@ -10,7 +10,7 @@ public class TwoDimension {
 					System.out.println("Enter the y array values");
 					int y=sc.nextInt();
 					int a[][]=new int[x][y];
-					System.out.println("Enter the x*y array values to store:\n");
+		 			System.out.println("Enter the x*y array values to store:\n");
 					  for (int i = 0; i < x; i++)
 						{
 						    for(int j = 0; j < y; j++)
