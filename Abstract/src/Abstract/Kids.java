@@ -2,7 +2,8 @@ package Abstract;
 
 		
 abstract class Parents {
-		abstract void lifeSpan();
+		abstract  void lifeSpan();
+		
 
 		void breadth() {
 			System.out.println("Takes the oxygen");
